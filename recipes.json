@@ -1,6 +1,6 @@
 {
   "_comment": "Declaratieve per-domein scrape-recipes. Alleen data: value (statisch), css (+attr), label (specs-tabel) of regex (source: text|html). GEEN code-uitvoering. Remote via RECIPES_URL (met TTL-cache); deze ingebouwde versie is fallback. _version wordt bij laden gelogd.",
-  "_version": "2026-07-08",
+  "_version": "2026-07-15",
   "123inkt.nl": {
     "naam": { "css": "[data-test=\"product-name\"]" },
     "btw": { "value": "incl" }
